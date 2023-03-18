@@ -2,7 +2,7 @@
 var mongoose = require('mongoose');
 var passportLocalMongoose = require('passport-local-mongoose');
 
-mongoose.connect('mongodb://localhost/gmail')
+mongoose.connect('mongodb+srv://chatapp:namanjain@cluster0.yewz6tl.mongodb.net/?retryWrites=true&w=majority')
 
 var userSchema = mongoose.Schema({
   username : String,
